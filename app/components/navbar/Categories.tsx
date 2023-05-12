@@ -38,11 +38,6 @@ export const categories = [
     description: "This property is considered modern by visitors!",
   },
   {
-    label: "Modern",
-    icon: MdOutlineVilla,
-    description: "This property is considered modern by visitors!",
-  },
-  {
     label: "Countryside",
     icon: TbMountain,
     description: "This property is in the countryside!",
