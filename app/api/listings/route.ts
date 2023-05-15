@@ -27,7 +27,10 @@ export async function POST(request: Request) {
     data: {
       title,
       description,
-      imageSrc,
+      imageSrc:
+        imageSrc !== ""
+          ? imageSrc
+          : "http://localhost:3000/images/house-placeholder.png",
       category,
       roomCount,
       bathroomCount,
