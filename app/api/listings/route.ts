@@ -30,7 +30,7 @@ export async function POST(request: Request) {
       imageSrc:
         imageSrc !== ""
           ? imageSrc
-          : "http://localhost:3000/images/house-placeholder.png",
+          : "https://book-trip-app.vercel.app/images/house-placeholder.png",
       category,
       roomCount,
       bathroomCount,
