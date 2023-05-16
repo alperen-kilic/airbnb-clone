@@ -1,6 +1,6 @@
 "use client";
 
-import { ClockLoader } from "react-spinners";
+import { RingLoader } from "react-spinners";
 
 const Loader = () => {
   return (
@@ -13,7 +13,7 @@ const Loader = () => {
       items-center 
     "
     >
-      <ClockLoader size={100} color="red" />
+      <RingLoader size={100} color="f43f5e" />
     </div>
   );
 };
